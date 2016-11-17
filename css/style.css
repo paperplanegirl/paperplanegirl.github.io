@@ -1,0 +1,176 @@
+a.navCustom, h1, h4, h3 {
+  font-family: 'Anonymous Pro', monospace;
+  color: black;
+}
+p {
+  font-family: 'Numans', sans-serif;
+}
+.navBrand-custom, .navbar-custom{
+  -webkit-transition: border 1000ms ease;
+  -moz-transition: border 1000ms ease;
+  -ms-transition: border 1000ms ease;
+  -o-transition: border 1000ms ease;
+  transition: border 1000ms ease;
+}
+.navbar-custom {
+  background-color:transparent;
+  border: none;
+}
+.navBrand-custom {
+  font-size: 2em;
+  background-color: transparent;
+  color: white !important;
+}
+.navbar-custom li a:hover {
+  border-bottom: 2px solid black;
+}
+.navbar-custom li a{
+  color: black !important;
+  font-size: 1.25em;
+}
+.parallax {
+  background-image: url("../images/congruent_pentagon.png");
+  background-size: cover;
+  height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.headerSection {
+  align-self: center;
+  align-content: center;
+  margin: 0 auto;
+}
+h1.headerText {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  font-size: 8em;
+}
+.section {
+  height: 700px;
+}
+.toggle-custom {
+  background-color: none;
+  border: none;
+  color: white;
+}
+button.toggle-custom:hover {
+  color: #403F4C;
+}
+.aboutText {
+
+  align-self: center;
+  align-content: center;
+  text-align: center;
+}
+.aboutSection, .workSection, .contactSection{
+  display: flex;
+}
+
+.aboutSection {
+  background-image: url("../images/cork-wallet.png");
+}
+
+.workSection {
+  background-color: rgb(30, 136, 169);
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.aboutText {
+  color: black;
+}
+.slide {
+  text-align: center;
+}
+.navIcon {
+  height: 40px;
+  width: 40px;
+}
+.navIcon:hover {
+  transform: translateY(-10px);
+  transform: translateX(10px);
+}
+.videoThumbnail {
+  height: 40vh;
+  width: 60vh;
+  margin: -10px auto;
+}
+.description {
+  width: 70%;
+  margin: 0 auto;
+}
+.subDescriptionSection{
+  margin-bottom: 10px;
+}
+.subDescriptionSection p{
+  font-size: 1.2em;
+}
+.projHeader {
+  font-weight: bold;
+  margin: 10px 0 20px 0;
+  color: black;
+}
+.link-custom {
+  margin-top: -5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #403F4C;
+}
+.link-custom:hover {
+  color: white;
+}
+.contactSection {
+  background-color: rgb(153, 219, 232);
+}
+
+#about, #work, #contact{
+  display: flex;
+}
+@media screen and (max-width: 740px) {
+  .projHeader{
+    font-size: 1.3em;
+  }
+  .subDescriptionSection h3 {
+    font-size: 1.5em;
+  }
+  .subDescriptionSection p {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 450px) {
+  .videoThumbnail{
+    display:none;
+  }
+}
+@media screen and (max-width: 412px){
+  .about {
+    font-size: 1.5em;
+  }
+  span {
+    display: block;
+  }
+  .projHeader {
+    font-size: 2em;
+    margin-top: -50px;
+  }
+  .subDescriptionSection h3 {
+    font-size: 1.8em;
+  }
+  .subDescriptionSection p {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-height: 412px) {
+  .videoThumbnail {
+    height: 20%;
+    width: 25%;
+  }
+}
