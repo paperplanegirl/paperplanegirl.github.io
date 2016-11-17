@@ -62,7 +62,7 @@ button.toggle-custom:hover {
   color: #403F4C;
 }
 .aboutText {
-
+  padding: 200px 450px;
   align-self: center;
   align-content: center;
   text-align: center;
@@ -129,7 +129,9 @@ img {
 }
 .contactSection {
   background-color: rgb(153, 219, 232);
+  padding: 200px 400px;
 }
+
 
 #about, #work, #contact{
   display: flex;
